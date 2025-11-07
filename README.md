@@ -72,4 +72,23 @@ Stores:
 ---
 
 ## 📁 Project Structure
+/backend
+├── app.py
+├── validators/
+│ ├── text_extractor.py
+│ ├── blur_detector.py
+│ └── rule_validator.py
+├── models.py
+├── database.py
+├── Dockerfile
+└── requirements.txt
+
+/frontend
+├── src/
+│ ├── App.js
+│ ├── components/
+│ │ └── UploadForm.js
+│ └── api/
+│ └── api.js
+└── package.json
 
